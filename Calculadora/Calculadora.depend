@@ -11,14 +11,15 @@
 
 1536292559 c:\users\joaco\documents\facultad joaco\calculadora\funciones.h
 
-1554235807 source:c:\users\joaco\documents\facultad joaco\calculadoraa-master\calculadora\funciones.c
+1554494850 source:c:\users\joaco\documents\facultad joaco\calculadoraa-master\calculadora\funciones.c
 	<stdio.h>
 	<stdlib.h>
+	<string.h>
 	"Funciones.h"
 
-1554235821 c:\users\joaco\documents\facultad joaco\calculadoraa-master\calculadora\funciones.h
+1554494837 c:\users\joaco\documents\facultad joaco\calculadoraa-master\calculadora\funciones.h
 
-1554235741 source:c:\users\joaco\documents\facultad joaco\calculadoraa-master\calculadora\main.c
+1554242579 source:c:\users\joaco\documents\facultad joaco\calculadoraa-master\calculadora\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

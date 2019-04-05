@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "Funciones.h"
 
 int funcion_menu()
@@ -69,71 +70,4 @@ int funcion_factorial(int opc1)
 
     resp=opc1*funcion_factorial(opc1-1) ;
     return resp ;
-}
-
-void funcion_getString(char mensaje[],char input[])
-{
-    printf("%s",mensaje);
-    gets(input);
-}
-
-int funcion_getStringInt(char mensaje[],char input[])
-{
-    char aux[256];
-    funcion_getString(mensaje,aux);
-    if(funcion_ValidarNumero(aux))
-    {
-        strcpy(input,aux);
-        return 1;
-    }
-    return 0;
-}
-
-
-int funcion_ValidarNumero(char str[])
-{
-   int i=0;
-   while(str[i] != '\0')
-   {
-       if(str[i] < '0' || str[i] > '9')
-           return 0;
-       i++;
-   }
-   return 1;
-};
-
-
-int funcion_validarNumeroFlotante(char str[])
-{
-   int i=0;
-   int cantidadPuntos=0;
-   while(str[i] != '\0')
-   {
-       if (str[i] == '.' && cantidadPuntos == 0 || str[i] == '-')
-       {
-           cantidadPuntos++;
-           i++;
-           continue;
-
-       }
-       if(str[i] < '0' || str[i] > '9' )
-       {
-           return 0;
-       }
-       i++;
-   }
-   return 1;
-}
-
-
-int funcion_getStringFloat(char mensaje[],char input[])
-{
-    char aux[256];
-    funcion_getString(mensaje,aux);
-    if(funcion_validarNumeroFlotante(aux))
-    {
-        strcpy(input,aux);
-        return 1;
-    }
-    return 0;
 }
