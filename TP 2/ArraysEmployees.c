@@ -338,11 +338,11 @@ int removeEmployee(eEmployee list[], int len,int id)
     return ret;
 }
 
-int sortEmployees(eEmployee list[], int len,int order)
+int sortEmployees(eEmployee list[], int len)
 {
     eEmployee auxEmployee;
     char auxOrder[1] ;
-    int ret;
+    int ret,order;
 
 
     if(list != NULL && len > 0)

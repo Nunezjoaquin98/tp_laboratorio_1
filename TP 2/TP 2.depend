@@ -1,51 +1,5 @@
 # depslib dependency file v1.0
-1555459706 source:c:\users\alumno\desktop\tp 2\funciones.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"Funciones.h"
-
-1555459731 c:\users\alumno\desktop\tp 2\funciones.h
-
-1555462004 source:c:\users\alumno\desktop\tp 2\arraysemployees.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"Funciones.h"
-	"ArraysEmployees.h"
-
-1555459354 source:c:\users\alumno\desktop\tp 2\main.c
-	<stdio.h>
-	<stdlib.h>
-	"funciones.h"
-	"ArraysEmployees.h"
-
-1555459309 c:\users\alumno\desktop\tp 2\arraysemployees.h
-
-1555461874 source:c:\users\alumno\downloads\prueba-master\tp 2\funciones.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"Funciones.h"
-
-1555461874 c:\users\alumno\downloads\prueba-master\tp 2\funciones.h
-
-1555977824 source:c:\users\alumno\downloads\prueba-master\tp 2\main.c
-	<stdio.h>
-	<stdlib.h>
-	"funciones.h"
-	"ArraysEmployees.h"
-
-1555461874 c:\users\alumno\downloads\prueba-master\tp 2\arraysemployees.h
-
-1555979958 source:c:\users\alumno\downloads\prueba-master\tp 2\arraysemployees.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"Funciones.h"
-	"ArraysEmployees.h"
-
-1555980608 source:c:\users\joaco\downloads\prueba-master\tp 2\funciones.c
+1556479746 source:c:\users\joaco\downloads\prueba-master\tp 2\funciones.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -53,18 +7,18 @@
 
 1555980608 c:\users\joaco\downloads\prueba-master\tp 2\funciones.h
 
-1556208648 source:c:\users\joaco\downloads\prueba-master\tp 2\main.c
-	<stdio.h>
-	<stdlib.h>
-	"funciones.h"
-	"ArraysEmployees.h"
-
-1556207575 c:\users\joaco\downloads\prueba-master\tp 2\arraysemployees.h
-
-1556208322 source:c:\users\joaco\downloads\prueba-master\tp 2\arraysemployees.c
+1556479718 source:c:\users\joaco\downloads\prueba-master\tp 2\arraysemployees.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"Funciones.h"
+	"ArraysEmployees.h"
+
+1556479784 c:\users\joaco\downloads\prueba-master\tp 2\arraysemployees.h
+
+1556479948 source:c:\users\joaco\downloads\prueba-master\tp 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
 	"ArraysEmployees.h"
 

@@ -92,7 +92,7 @@ indicate UP or DOWN order
  * \return int Return (-1) if Error [Invalid length or NULL pointer] - (0) if Ok
  *
  */
-int sortEmployees(eEmployee list[], int len,int order) ;
+int sortEmployees(eEmployee list[], int len) ;
 
 void function_averageSalary (eEmployee list[],int len);
 

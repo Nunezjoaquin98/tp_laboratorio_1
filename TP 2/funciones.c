@@ -200,3 +200,10 @@ while(!function_getStringNumeros("Ingrese opcion: ",auxOption))
     option = atoi(auxOption);
     return option;
 }
+
+void mostrarNacionalidades()
+{
+    printf("ID\t\tPais");
+    printf("\n1\t\tArgentina\n2\t\tBolivia\n3\t\tBrasil\n4\t\tChile\n5\t\tColombia\n6\t\tEcuador\n7\t\tParaguay\n8\t\tPeru\n9\t\tResto del Mundo\n10\t\tUruguay\n11\t\tVenezuela");
+
+}

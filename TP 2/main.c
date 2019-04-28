@@ -20,7 +20,6 @@ Realizar informes.
 int main()
 {
     char salir = 'n';
-    int order = 0;
     eEmployee empleados[SIZE]; // se crea un arrays tipo eEmployee con el tamaño de 1000
 
     initEmployees(empleados,SIZE); // Se inicializa todos los empleados en 1.
@@ -62,7 +61,7 @@ int main()
         case 4:
             if(hayEmpleadoCargado(empleados,SIZE))
             {
-                sortEmployees(empleados,SIZE,order);
+                sortEmployees(empleados,SIZE);
                 showEmployees(empleados,SIZE);
                 function_averageSalary(empleados,SIZE);
                 system("pause");
@@ -74,9 +73,8 @@ int main()
                 system("cls");
             }
             break;
-
-
-
+        case 6:
+            mostrarNacionalidades();
         case 5:
             printf("\n\t***Saliendo***\n\n");
             salir = 's';
