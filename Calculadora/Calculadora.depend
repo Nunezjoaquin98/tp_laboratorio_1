@@ -25,3 +25,16 @@
 	<string.h>
 	"Funciones.h"
 
+1567465300 source:c:\users\alumno\downloads\tp_laboratorio_1-master\calculadora\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Funciones.h"
+
+1567465244 c:\users\alumno\downloads\tp_laboratorio_1-master\calculadora\funciones.h
+
+1567465358 source:c:\users\alumno\downloads\tp_laboratorio_1-master\calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Funciones.h"
+

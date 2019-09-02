@@ -3,13 +3,13 @@
 #include <string.h>
 #include "Funciones.h"
 
-int funcion_menu()
+int funcion_menu(float A,float B)
 {
         int opcion ;
 
         printf("\n \t\t.: Calculadora :. \n") ;
-        printf("1 - Ingresar el primer operando(A = X) \n") ;
-        printf("2 - Ingresar el segundo operando(B = X) \n") ;
+        printf("1 - Ingresar el primer operando(A = %.2f) \n",A) ;
+        printf("2 - Ingresar el segundo operando(B = %.2f) \n",B) ;
         printf("3 - Calcular las operaciones.\n") ;
         printf("4 - Informar los resultados. \n") ;
         printf("5 - SALIR. \n\n") ;

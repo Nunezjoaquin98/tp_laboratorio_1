@@ -1,9 +1,11 @@
 /** \brief Muestra el menu y devuelve la opcion seleccionada
  *
-  * \return Valor entero de la opcion seleccionada.
+ * \param valor del operador A
+ * \param valor del operador B
+ * \return Valor entero de la opcion seleccionada.
  *
  */
- int funcion_menu() ;
+ int funcion_menu(float A,float b) ;
 
 /** \brief Suma dos variables.
  *

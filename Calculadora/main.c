@@ -10,13 +10,17 @@ int main()
     int flag2 = 0;
     int flag3 = 0;
     int factorialA,factorialB;
-    float A,B,suma,resta,div,multi;
+    float A = 0;
+    float B = 0;
+    float suma,resta,div,multi;
+
+    // se realiza una sentencia do while para que el menu se ejecute
 
     do
     {
-        switch(funcion_menu())
+        switch(funcion_menu(A,B))
         {
-        case 1:
+        case 1: // primer operador
 
             printf("\n\nInserte el Operador A = ");
             fflush(stdin);
@@ -29,7 +33,7 @@ int main()
             }
 
             break;
-        case 2:
+        case 2: // segundo operador
             fflush(stdin);
             printf("\n\nInserte el Operador B = ");
             scanf("%f",&B);
@@ -40,7 +44,7 @@ int main()
             system("pause");
             system("cls");
             break;
-        case 3:
+        case 3: // Se calcula las operaciones
             if(flag1 == 0)
             {
                 printf("\n\n*Error* No se ingreso el operador A.\n\n");
@@ -71,14 +75,14 @@ int main()
                 {
                     div = funcion_dividir(A,B);
                 }
-                printf("\nCalculando resultados.:.:.:.:.:.:.:.:.:..:.:.:.:.:.:.:.:.:..:.:.:.:.:.:.:.:.:.\n\n");
+                printf("\nSe han calculado los resultados.\n\n");
                 flag3++;
                 system("pause");
                 system("cls");
 
             }
             break;
-        case 4:
+        case 4: // informe de los resultados
             if(flag3 != 0)
             {
                 printf("\n\n\t\t\tOperador A = %0.2f",A);
