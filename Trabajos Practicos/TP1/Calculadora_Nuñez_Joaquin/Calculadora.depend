@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1554242194 source:c:\users\tomas\desktop\calculadora\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Funciones.h"
+
+1554242194 c:\users\tomas\desktop\calculadora\funciones.h
+
+1554243684 source:c:\users\tomas\desktop\calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Funciones.h"
+
+1576071834 source:c:\users\u627140\documents\facultad joaco\trabajos practicos\tp1\calculadora_nuñez_joaquin\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Funciones.h"
+
+1576071912 c:\users\u627140\documents\facultad joaco\trabajos practicos\tp1\calculadora_nuñez_joaquin\funciones.h
+
+1554243846 source:c:\users\u627140\documents\facultad joaco\trabajos practicos\tp1\calculadora_nuñez_joaquin\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Funciones.h"
+
+1576071836 source:e:\trabajos practicos\tp1\calculadora_nuñez_joaquin\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Funciones.h"
+
+1576071914 e:\trabajos practicos\tp1\calculadora_nuñez_joaquin\funciones.h
+
+1576072254 source:e:\trabajos practicos\tp1\calculadora_nuñez_joaquin\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Funciones.h"
+
